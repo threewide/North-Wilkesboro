@@ -12,8 +12,14 @@ Generates an HTML webpage based on input about employees on a software engineeri
 - [License](#license)
 
 ## Installation
+To Install and begin working on the Team Profile Generator follow these easy steps:
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Copy the repository link [Team Profile Generator Repository](https://github.com/threewide/North-Wilkesboro.git)
+2. Open the terminal to the directory you would like the repo saved in
+3. In the terminal enter 'git clone https://github.com/threewide/North-Wilkesboro.git' to create a clone of the Team Profile Generator Repository
+4. In the terminal enter 'code .' to open the project in Visual Studios development environment
+
+![Installation](./assets/images/installation-guide.png)
 
 ## Usage
 
