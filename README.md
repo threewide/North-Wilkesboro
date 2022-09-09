@@ -23,18 +23,16 @@ To Install and begin working on the Team Profile Generator follow these easy ste
 
 5. The project will still need its package.json so to install that on your machine in the same terminal window enter 'npm i'. This will add all npm files, dependencies and node_modules.
 
-![NPM Installation](./assets/images/npm-install.png)
+![npm Installation](./assets/images/npm-install.png)
 ![Added Files](./assets/images/added-files.png)
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+To run the application open the project folder in the terminal
+Enter the command 'node index.js'
+This will prompt the user for the Manager credentials
+Answer the different prompts and it will store all of the answers in an array to be used in the Team Profile Generator.
+Use FS (file system) to create a basic html page with the users input about team members
 
 ## Credits
 
@@ -70,4 +68,6 @@ If your project has a lot of features, list them here.
 
 ## Tests
 
-The Team Profile Generator has some basic constructor tests of each of its classes. To run the test open the project folder in terminal and use the command npm
+The Team Profile Generator has some basic constructor tests of each of its classes. To run the test open the project folder in terminal and use the command 'npm test'
+
+![Jest Test](./assets/images/npm-tests.png)
