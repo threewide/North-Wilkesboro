@@ -1,12 +1,16 @@
+//import inquirer
 const inquirer = require('inquirer');
 
+//import Employee and child classes
 const Employee = require('./lib/employee');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 
+//create an array to hold Employee object imput
 const teamMembers = [];
 
+//prompt manager for name, id, email and office number
 const managerPrompt = [
     {
         type:'input',
@@ -30,17 +34,8 @@ const managerPrompt = [
     }
 ];
 
+//add the user input to a new Manager object and push it back into the teamMembers array for later use
 inquirer.prompt(managerPrompt).then((response)=>{
     teamMembers.push(new Manager(response.name, response.id, response.email, response.officeNumber));
     console.log(teamMembers);
 })
-
-
-// const bob = new Employee("Bob","high up","bob@mail.com");
-// const fred = new Manager("Fred","low","fred@mail.com", 10);
-// const steve = new Engineer("Steve","mid","steve@mail.com", "asdf@github.com");
-// const bill = new Intern("Bill","lowish","bill@mail.com", "schooling");
-// console.log(`${bob.getEmail()} + ${bob.getName()} + ${bob.getRole()}`);
-// console.log(`${fred.getEmail()} + ${fred.getName()} + ${fred.getRole()} + ${fred.getOfficeNumber()}`);
-// console.log(`${steve.getEmail()} + ${steve.getName()} + ${steve.getRole()} + ${steve.getGithub()}`);
-// console.log(`${bill.getEmail()} + ${bill.getName()} + ${bill.getRole()} + ${bill.getSchool()}`);

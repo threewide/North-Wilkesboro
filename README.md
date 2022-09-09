@@ -8,8 +8,11 @@ Generates an HTML webpage based on input about employees on a software engineeri
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Tests](#tests)
 
 ## Installation
 To Install and begin working on the Team Profile Generator follow these easy steps:
@@ -33,6 +36,10 @@ Enter the command 'node index.js'
 This will prompt the user for the Manager credentials
 Answer the different prompts and it will store all of the answers in an array to be used in the Team Profile Generator.
 Use FS (file system) to create a basic html page with the users input about team members
+
+## Demo
+
+![Application Demo](./assets/videos/Team-Profile-Generator-Demo.mp4)(https://drive.google.com/file/d/1ahVN7z0efKFsb9a5Wni44MR3eq_Xwrgc/view?usp=sharing)
 
 ## Credits
 
