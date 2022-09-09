@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Generates an HTML webpage based on input about employees on a software engineering team. This program will help quickly organize a software engineering team with brief details of the different employees and contact info.",
+  "main": "index.js",
+  "directories": {
+    "test": "__tests__",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threewide/North-Wilkesboro.git"
+  },
+  "author": "Justin Collver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threewide/North-Wilkesboro/issues"
+  },
+  "homepage": "https://github.com/threewide/North-Wilkesboro#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.0.2"
+  }
+}
