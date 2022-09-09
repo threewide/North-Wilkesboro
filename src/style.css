@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+table {
+    text-align: left;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card header{
+    background-color: blue;
+    text-align: left;
+    padding: 0px 5px;
+}
+
